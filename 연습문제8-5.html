@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+        <style>
+        *{margin : 0; padding : 0;}
+        li { 
+            list-style-type: none;
+            padding: 24px 0;
+            border-bottom: 1px solid burlywood;
+        }
+
+        @media screen {
+            div.left {
+                display: none;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            div.left {
+                display: block;
+                width: 30%;
+                float: left;
+            }
+
+            div.right {
+                float: right;
+                width: 70%;
+            }
+        }
+
+        div.content {
+            padding: 16px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="left">
+            <div class="content">
+                <h1>목록</h1>
+                <ul>
+                    <li>게임</li>
+                    <li>비디오</li>
+                    <li>영화</li>
+                    <li>카페</li>
+                    <li>웹서핑</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>로비</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, aperiam saepe quam soluta porro sit quis quo architecto. Optio animi quia fugit consectetur non repellat cum, molestias rerum placeat laborum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum similique quaerat deleniti ratione expedita cupiditate exercitationem maxime non, repellat fugit? Eum quisquam minus magnam temporibus atque excepturi alias sapiente eius!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim iste cum provident rem iusto amet repellendus nostrum aperiam aut magni quae, expedita natus officiis distinctio quisquam? Recusandae dolores id fugit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure rerum quaerat temporibus tempore saepe, sequi modi aut, libero officia laboriosam obcaecati vel ab, consequuntur repellat non. Maiores, sequi tempore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nisi voluptatem consectetur fuga doloremque similique sapiente, perferendis, ad maxime hic, neque dicta rerum illum. Adipisci impedit nesciunt odit ipsam nihil!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea vitae distinctio dolor delectus sint aperiam assumenda facere laudantium, iste voluptate ratione neque ab velit nihil temporibus corrupti, impedit quaerat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet soluta placeat voluptatibus expedita dolorem dicta incidunt aliquam! Odit quis optio exercitationem, a quasi ipsa fugiat amet rerum eius. Et.</p>
+            </div>
+        </div>
+    </body>
+</html>
