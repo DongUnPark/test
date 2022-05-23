@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>애니메이션</title>
+  <style>
+  div {
+    background-color: burlywood;
+    width: 150px;
+    border: 1px solid blueviolet;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+ 
+<button id="go">&raquo; 시작</button>
+<div id="block">애니메이션입니다.</div>
+ 
+<script>
+$( "#go" ).click(function() {
+  $( "#block" ).animate({
+    width: "30%",
+    opacity: 0.7,
+    marginLeft: "0in",
+    fontSize: "3em",
+    borderWidth: "10px"
+  }, 1600 );
+});
+</script>
+ 
+</body>
+</html>
